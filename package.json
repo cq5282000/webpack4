@@ -5,9 +5,13 @@
   "repository": "https://github.com/cq5282000/webpack4.git",
   "author": "chenqu <chenqu@meituan.com>",
   "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server"
+  },
   "dependencies": {
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
@@ -15,6 +19,8 @@
     "webpack-dev-server": "^3.1.1"
   },
   "devDependencies": {
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
     "open-browser-webpack-plugin": "^0.0.5",
     "webpack-cli": "^2.0.12"
