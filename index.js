@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TestContainer from './Container';
+import CommentList from './Comment/CommentList';
 
-// const test = new Test('lisa', 13);
-// test.sayAge();
-// test.sayName();
-// console.log(test.age);
 ReactDOM.render(
-  <h1><TestContainer /></h1>,
+  <h1><CommentList /></h1>,
   document.getElementById('root')
 );
