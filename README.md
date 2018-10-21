@@ -35,3 +35,5 @@ yarn add webpack-cli -D  // 安装到devDependencies
  - 支持被认为是latest的babel所有插件，不会包含stage-0插件
 
  - 但是在class里面直接生命尖头函数是在stage-x里面支持的，如果直接引入stage-x去支持这个功能的话，就会引入stage-x里面许多不需要的功能，所以最好的方法是单独引入一个插件babel-plugin-transform-class-properties去支持这个共能
+
+### 2018年10月21日

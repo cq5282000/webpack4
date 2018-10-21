@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import CommentList from './Comment/CommentList';
+import CommentContainer from './Comment/CommentContainer';
 
 ReactDOM.render(
-  <h1><CommentList /></h1>,
+  <h1><CommentContainer /></h1>,
   document.getElementById('root')
 );
